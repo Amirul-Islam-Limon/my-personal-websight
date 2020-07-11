@@ -35,6 +35,13 @@ body{
     margin-top: 100px;
     margin-bottom: 120px;
 }
+.button-style{
+    text-decoration: none;
+    background-color: #e01d6e;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
 .biography-img{
     padding-left: 100px;
 }
@@ -50,6 +57,7 @@ body{
 }
 .second-section{
     background-image: url("images/biography-bg.png");
+    background-repeat: repeat;
 }
 .align-center{
     text-align: center;
@@ -102,6 +110,10 @@ body{
 .contact-me p{
     color: white;
     font-weight: 200;
+}
+.four-secton{
+    background-image: url("images/footer-bg.png");
+    background-repeat: repeat;
 }
 footer p{
     text-align: center;
