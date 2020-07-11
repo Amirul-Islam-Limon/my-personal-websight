@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.name-higilight2{
+    font-family: 'Roboto', sans-serif;
+    color:#e01d6e ;
+    font-size: 40px;
+}
+.name-higilight1{
+    font-size: 40px;
+}
+.first-section{
+    background-image: url("images/header-bg.png");
+}
+.container::after, .container::before{
+    content: "";
+    display: table;
+    clear: both;
+}
+.text-part{
+    width: 50%;
+    float: left;
+    padding-left: 150px;
+    margin-top: 150px;
+    margin-bottom: 120px;
+}
+.image-part{
+    width: 50%;
+    float: left;
+    padding-right: 80px;
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+.biography-img{
+    padding-left: 100px;
+}
+.biography-text{
+    padding-right: 80px;
+    padding-left: 50px;
+}
+.image-part img{
+    width: 100%;
+}
+.container p{
+    color:dimgray
+}
+.second-section{
+    background-image: url("images/biography-bg.png");
+}
+.align-center{
+    text-align: center;
+}
+.work1, .work2, .work3{
+    width: 33.33%;
+    float: left;
+}
+.work2{
+    padding:0 20px;
+}
+.work1 img, .work2 img, .work3 img{
+    width: 100%;
+}
+.latest-work{
+    margin: 20px 120px;
+    padding-top: 50px;
+}
+.third-section{
+    background-image: url("images/latest-work-bg.png");
+    margin-bottom: 200px;
+}
+.about-client{
+    margin-top: 100px;
+}
+.about-client h4 {
+    margin-bottom: -8px;
+}
+.client-comment p {
+    color: black;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.client-comment{
+    margin: 50px auto;
+}
+.contact-me{
+    width: 40%;
+    height: 150px;
+    background-color:#e01d6e;
+    margin:50px auto 150px auto;
+}
+.contact-me{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding-top: 25px;
+    border-radius: 5px;
+}
+.contact-me p{
+    color: white;
+    font-weight: 200;
+}
+footer p{
+    text-align: center;
+    font-size: small;
+    color: dimgray;
+    padding-bottom: 20px;
+}
